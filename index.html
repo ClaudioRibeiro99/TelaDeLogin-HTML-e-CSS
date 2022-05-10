@@ -7,21 +7,22 @@
     <title>Login</title>
     <script src="https://kit.fontawesome.com/9c5dda45a3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="./app.js"></script>
 </head>
 <body>
     <div id="login-container">
         <h1>Login</h1>
-        <form action="">
+        <form>
             <label for="email">E-mail</label>
             <input type="email" name="email" id="email" placeholder="Digite seu email..." autocomplete="off">
             <label for="password">Senha</label>
             <input type="password" name="password" id="password" placeholder="Digite sua senha...">
             <a href="#" id="forgot-pass">Esqueceu sua senha?</a>
-            <input type="submit" value="Login">
+            <button onclick="sendLogin()"class="form-btn" type="button">Login</button>
         </form>
         <div id="social-container">
             <p>Entre pelas suas redes sociais</p>
-            <i class="fa fa-facebook-f"></i>
+            <i class="fa fa-facebook-f"></i>    
             <i class="fa fa-linkedin"></i>
         </div>
         <div id="register-container">

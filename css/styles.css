@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: silver;
+    background-color: rgb(124, 124, 124);
     background-size: cover;
 }
 
@@ -28,12 +28,13 @@ a:hover {
 
 /* container login */
 #login-container {
-    background-color: #fff;
+    background-color: rgb(228, 228, 228);
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15vh;
     padding: 20px 30px;
-    margin-top: 10vh;
+    
     border-radius: 10px;
     text-align: center;
 }
@@ -57,6 +58,20 @@ label {
 
 }
 
+.form-btn:hover {
+    background-color: #1B223C;
+    transition: 1s;
+}
+
+.form-btn {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(124, 124, 124);
+    border-radius: 10%;
+    color: #fff;
+    cursor: pointer;
+}
+
 input {
     border-bottom: 2px solid #323232;
     padding: 10px;
@@ -73,23 +88,6 @@ input:focus {
     display: block;
 }
 
-input[type="submit"] {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: none;
-    height: 40px;
-    border-radius: 20px;
-    margin-top: 30px;
-    color: #fff;
-    background-color: #08558B;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #1B223C;
-    transition: 1s;
-}
 
 /* redes sociais */
 #social-container, #social-container p {
@@ -109,11 +107,25 @@ input[type="submit"]:hover {
 .fa-facebook-f {
     background-color: #3B5998;
 }
+.fa-facebook-f:hover {
+    background-color: #354D80;
+}
 .fa-linkedin {
     background-color: #0077B5;
+}
+.fa-linkedin:hover {
+    background-color: #02669C;
 }
 
 /*registrar*/
 #registrar-container p {
     margin-bottom: 10px;
 }
+
+
+
+
+
+
+
+
